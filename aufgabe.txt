@@ -1,0 +1,12 @@
+Szenario:
+  Unter Einsatz der Klasse DiceWidget soll eine grafische Kniffel-Anwendung erstellt werden.
+  Über eine QSpinBox soll die Spieleranzahl eingestellt und das Spielblatt dynamisch dazu
+  passend dargestellt werden.
+
+Aufgabe 1:
+  Erstellen Sie ein Qt Projekt mit auf QWidget basierendem Hauptfenster, in dem mit
+  QGroupBox Container für Spielsteuerung, Einstellungen, das Spielblatt und die Würfel
+  enthalten sind. (siehe gui1.png)
+  Die QGroupBox für das Spielblatt benötigt ein QGridLayout, die übrigen sollten mit
+  QHBoxLayouts ausgestattet werden.
+
